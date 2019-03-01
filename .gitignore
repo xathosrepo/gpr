@@ -1,0 +1,25 @@
+#############################
+# TYPO3 CMS Base Distribution
+#############################
+.DS_Store
+.idea
+bin
+index.php
+nbproject
+vendor
+
+web/typo3
+web/typo3temp/
+
+web/uploads/
+
+web/fileadmin/user_upload/
+web/fileadmin/_processed_/
+web/fileadmin/_temp_/
+
+web/fileadmin/assets/_processed_/
+
+web/typo3conf/ext/*
+!web/typo3conf/ext/gpr_site
+
+web/typo3conf/ENABLE_INSTALL_TOOL

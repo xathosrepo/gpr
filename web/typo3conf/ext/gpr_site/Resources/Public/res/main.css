@@ -1,0 +1,20 @@
+body {
+    background: green;
+}
+
+#body-container{
+    text-align: left;
+}
+
+li{
+    list-style-type: none;
+}
+
+#steckBrief li{
+    padding-bottom: 5px;
+}
+
+#c8 {
+    border-right: 1px solid darkgreen;
+    border-left: 1px solid darkgreen;
+}

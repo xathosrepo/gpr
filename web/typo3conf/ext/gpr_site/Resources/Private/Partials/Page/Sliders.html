@@ -1,0 +1,17 @@
+<div class="collapse carousel slide" id="{id}" data-parent="#{data-parent}" data-ride="carousel">
+    <div class="carousel-inner">
+        <f:if condition="{id}=='bisherigeWerke'">
+            <f:then>
+                <f:render partial="CarouselItem" arguments="{image: 'EXT:gpr_site/Resources/Public/res/images/auto.jpg', activeClass: 'active'}"/>
+                <f:render partial="CarouselItem" arguments="{image: 'EXT:gpr_site/Resources/Public/res/images/geraete1.jpg'}"/>
+                <f:render partial="CarouselItem" arguments="{image: 'EXT:gpr_site/Resources/Public/res/images/header.png'}"/>
+            </f:then>
+            <f:else>
+                <f:render partial="CarouselItem" arguments="{image: 'EXT:gpr_site/Resources/Public/res/images/header.png', activeClass: 'active'}"/>
+                <f:render partial="CarouselItem" arguments="{image: 'EXT:gpr_site/Resources/Public/res/images/header.png'}"/>
+                <f:render partial="CarouselItem" arguments="{image: 'EXT:gpr_site/Resources/Public/res/images/header.png'}"/>
+            </f:else>
+        </f:if>
+    </div>
+    <f:render partial="CollapseControl" arguments="{href: id}"/>
+</div>
